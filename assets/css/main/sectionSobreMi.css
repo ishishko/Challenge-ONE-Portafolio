@@ -1,0 +1,58 @@
+.sobremi--1 {
+  width: calc(97vw - 20rem);
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  padding: 1rem 10rem 2rem 10rem;
+}
+.sobremi--texto {
+  width: 65%;
+  margin-right: 2rem;
+}
+.sobremi--titulo {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #353535;
+}
+.sobremi--parrafo {
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+}
+.sobremi-ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 3.25rem 5rem 3.25rem 5rem;
+}
+.sobremi--li {
+  text-decoration: none;
+  color: #353535;
+  font-weight: 500;
+}
+
+.sobremi--imagen {
+  background-image: url(../../img/fotoperfil.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 368px;
+  height: 368px;
+  border-radius: 49%;
+  box-shadow: 5px 15px 15px #353535;
+}
+
+.sobremi--2 {
+  background: #7882b9;
+  width: calc(100vw - 35rem);
+  padding: 3rem 25rem 2rem 10rem;
+  box-shadow: -10px 10px 10px #7882b9, 10px 10px 10px #7882b9, -10px -10px 10px #7882b9, 10px -10px 10px #7882b9;
+}
+
+.sobremi--2--h2 {
+  padding: 1rem 0;
+}
+.sobremi--2--p {
+  color: #353535;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
