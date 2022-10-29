@@ -14,21 +14,55 @@
   justify-content: space-between;
 }
 .skillhobbies--li {
+  flex-direction: column;
+  justify-content: space-between;
   width: 160px;
   height: 160px;
   padding: 0.5rem;
-  background-color: aqua;
-  border-radius: 5%;
+  background-color: #ffffff;
+  border-radius: 10%;
+  box-shadow: 0px 2px 5px #929ba3, inset 0 0 10px #929ba3;
 }
 .skillhobbies--div {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   background: #585858;
   margin: 4% auto;
+}
+.skillhobbies--p {
+  font-family: Open, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  text-align: center;
 }
 
 .skill--div__1 {
   background-image: url(../../img/html5.jpg);
   background-size: cover;
-  /* padding: 0.5rem; */
+}
+.skill--div__2 {
+  background-image: url(../../img/css.jpg);
+  background-size: cover;
+}
+.skill--div__3 {
+  background-image: url(../../img/javascript.jpg);
+  background-size: cover;
+  width: 110px;
+  height: 110px;
+  border-radius: 10%;
+}
+.skill--div__4 {
+  background-image: url(../../img/sql.jpg);
+  background-size: cover;
+}
+.skill--div__5 {
+  background-image: url(../../img/php.jpg);
+  background-size: cover;
+  width: 107px;
+  height: 110px;
+}
+.skill--div__6 {
+  background-image: url(../../img/python.jpg);
+  background-size: cover;
 }

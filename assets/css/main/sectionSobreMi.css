@@ -32,8 +32,9 @@
 .sobremi--imagen {
   background-image: url(../../img/fotoperfil.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 368px;
+  min-width: 350px;
   height: 368px;
   border-radius: 49%;
   box-shadow: 5px 15px 15px #353535;
@@ -42,7 +43,7 @@
 .sobremi--2 {
   background: #7882b9;
   width: calc(100vw - 35rem);
-  padding: 3rem 25rem 2rem 10rem;
+  padding: 2rem 25rem 3rem 10rem;
   box-shadow: -10px 10px 10px #7882b9, 10px 10px 10px #7882b9, -10px -10px 10px #7882b9, 10px -10px 10px #7882b9;
 }
 
