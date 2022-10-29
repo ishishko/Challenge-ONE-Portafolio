@@ -26,7 +26,7 @@
 .skillhobbies--div {
   width: 120px;
   height: 120px;
-  background: #585858;
+
   margin: 4% auto;
 }
 .skillhobbies--p {
@@ -64,5 +64,30 @@
 }
 .skill--div__6 {
   background-image: url(../../img/python.jpg);
+  background-size: cover;
+}
+
+.hobbies--div__1 {
+  background-image: url(../../img/musica.png);
+  background-size: cover;
+}
+.hobbies--div__2 {
+  background-image: url(../../img/deportes.png);
+  background-size: cover;
+}
+.hobbies--div__3 {
+  background-image: url(../../img/gaming.png);
+  background-size: cover;
+}
+.hobbies--div__4 {
+  background-image: url(../../img/automovilismo.png);
+  background-size: cover;
+}
+.hobbies--div__5 {
+  background-image: url(../../img/tecnologia.png);
+  background-size: cover;
+}
+.hobbies--div__6 {
+  background-image: url(../../img/electronica.png);
   background-size: cover;
 }
