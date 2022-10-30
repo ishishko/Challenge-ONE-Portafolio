@@ -3,11 +3,11 @@
   flex-direction: column;
 }
 .skillhobies--h2 {
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .skillhobbies--div--container {
   width: calc(97vw - 20rem);
-  padding: 5rem 10rem 3rem 10rem;
+  padding: 5rem 10rem 5rem 10rem;
 }
 .skillhobbies--ul {
   display: flex;
@@ -26,7 +26,7 @@
 .skillhobbies--div {
   width: 120px;
   height: 120px;
-
+  background-size: cover;
   margin: 4% auto;
 }
 .skillhobbies--p {
@@ -39,55 +39,43 @@
 
 .skill--div__1 {
   background-image: url(../../img/html5.jpg);
-  background-size: cover;
 }
 .skill--div__2 {
   background-image: url(../../img/css.jpg);
-  background-size: cover;
 }
 .skill--div__3 {
   background-image: url(../../img/javascript.jpg);
-  background-size: cover;
   width: 110px;
   height: 110px;
   border-radius: 10%;
 }
 .skill--div__4 {
   background-image: url(../../img/sql.jpg);
-  background-size: cover;
 }
 .skill--div__5 {
   background-image: url(../../img/php.jpg);
-  background-size: cover;
   width: 107px;
   height: 110px;
 }
 .skill--div__6 {
   background-image: url(../../img/python.jpg);
-  background-size: cover;
 }
 
 .hobbies--div__1 {
   background-image: url(../../img/musica.png);
-  background-size: cover;
 }
 .hobbies--div__2 {
   background-image: url(../../img/deportes.png);
-  background-size: cover;
 }
 .hobbies--div__3 {
   background-image: url(../../img/gaming.png);
-  background-size: cover;
 }
 .hobbies--div__4 {
   background-image: url(../../img/automovilismo.png);
-  background-size: cover;
 }
 .hobbies--div__5 {
   background-image: url(../../img/tecnologia.png);
-  background-size: cover;
 }
 .hobbies--div__6 {
   background-image: url(../../img/electronica.png);
-  background-size: cover;
 }
