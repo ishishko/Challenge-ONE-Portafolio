@@ -2,14 +2,14 @@
   flex-direction: column;
   background: #7882b9;
   width: calc(100vw - 20rem);
-  padding: 3rem 10rem 3rem 10rem;
+  padding: 2rem 10rem 2rem 10rem;
   box-shadow: -10px 10px 10px #7882b9, 10px 10px 10px #7882b9, -10px -10px 10px #7882b9, 10px -10px 10px #7882b9;
 }
 
 .formacion--academica {
   width: inherit;
   justify-content: space-between;
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 /* .fomacion--container {
   text-align: center;
@@ -22,7 +22,7 @@
   width: 350px;
   height: 100px;
   padding: 1rem;
-  border-radius: 5%;
+  border-radius: 15px;
   box-shadow: 0px 2px 5px #929ba3, inset 0 0 10px #929ba3;
 }
 .academia--div {
@@ -62,8 +62,13 @@
   height: 67px;
 }
 
+.formacion--container--otros {
+  flex-direction: column;
+  padding: 1rem 0;
+}
 .formacion--otros {
   width: 100%;
+  padding: 1rem 0;
 }
 .otros--ul {
   flex-direction: column;
@@ -71,7 +76,11 @@
   width: 50%;
 }
 .otros--li {
-  padding: 1rem;
+  padding: 0.5rem;
+}
+.otros--div {
+  display: flex;
+  align-items: center;
 }
 .otros--div--img {
   justify-content: space-around;
@@ -84,10 +93,12 @@
   line-height: 1.5rem;
   vertical-align: bottom;
   color: #353535;
+  min-width: 408px;
 }
 .otros--p1 {
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 700;
+  margin-left: 1rem;
 }
 .otros--p2 {
   font-size: 0.9rem;
