@@ -70,16 +70,35 @@
   align-items: initial;
   width: 50%;
 }
+.otros--li {
+  padding: 1rem;
+}
 .otros--div--img {
   justify-content: space-around;
   background-color: #ffffff;
   width: 350px;
-  height: 60px;
+  height: 50px;
   border-radius: 10px;
+}
+.otros--p {
+  line-height: 1.5rem;
+  vertical-align: bottom;
+  color: #353535;
+}
+.otros--p1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.otros--p2 {
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .otros--pildoras {
   width: 90px;
+}
+.otros--poo {
+  height: 45px;
 }
 .otros--sql {
   width: 90px;
@@ -87,4 +106,22 @@
 .otros--mysql {
   width: 90px;
   height: 40px;
+}
+.otros--php {
+  width: 90px;
+}
+.otros--udemy {
+  width: 90px;
+}
+.otros--workbench {
+  width: 80px;
+}
+.otros--linuxvps {
+  width: 90px;
+}
+.otros--javascript {
+  width: 115px;
+}
+.otros--typescript {
+  width: 168px;
 }
