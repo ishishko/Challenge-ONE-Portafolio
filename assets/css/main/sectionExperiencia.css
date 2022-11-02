@@ -2,25 +2,27 @@
   padding: 3rem 10rem;
   flex-direction: column;
   width: calc(99vw - 20rem);
-  height: calc(100vh - 5rem);
-  min-height: 800px;
 }
 .experiencia--container--div {
-  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-around;
   width: 100%;
   height: calc(100% - 7rem);
   padding: 2rem 0;
 }
 .experiencia--div {
-  position: absolute;
-  background-color: #bbbccc;
-  max-height: 100px;
-  padding: 1rem 1rem;
+  height: 250px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
   width: 40%;
-  min-width: 475px;
-  border-radius: 15px;
-  box-shadow: 5px 5px 10px #353535, 0 0 5px #353535 inset;
+  min-width: 510px;
+}
+.experiencia--div--interior {
+  max-height: 95px;
   overflow: hidden;
+  padding: 1rem;
+  box-shadow: 5px 5px 5px #353535, 0 0 5px #353535 inset;
+  border-radius: 15px;
   transition: 0.4s ease-in-out;
 }
 .experiencia--p--principal {
@@ -45,7 +47,7 @@
   transition: 0.5s;
 }
 
-.experiencia--div__5 {
+/*.experiencia--div__5 {
   right: 0;
   top: 166px;
 }
@@ -60,62 +62,8 @@
 .experiencia--div__2 {
   left: 0;
   top: calc(600px - 2rem);
-}
+}*/
 
-.experiencia--linea--vertical {
-  position: absolute;
-  z-index: -1;
-  background-color: #414664;
-  left: calc(50% - 1rem);
-  border-radius: 1rem;
-  width: 2rem;
-  height: 90%;
-}
-.experiencia--linea--1 {
-  position: absolute;
-  z-index: -1;
-  background-color: #414664;
-  width: 10%;
-  height: 2rem;
-  top: calc(50px + 2rem);
-  left: calc(50% - 10%);
-}
-.experiencia--linea--2 {
-  position: absolute;
-  z-index: -1;
-  background-color: #414664;
-  width: 10%;
-  height: 2rem;
-  top: calc(166px + 3rem);
-  left: calc(50% - 0%);
-}
-.experiencia--linea--3 {
-  position: absolute;
-  z-index: -1;
-  background-color: #414664;
-  width: 10%;
-  height: 2rem;
-  top: calc(300px + 3rem);
-  left: calc(50% - 10%);
-}
-.experiencia--linea--4 {
-  position: absolute;
-  z-index: -1;
-  background-color: #414664;
-  width: 10%;
-  height: 2rem;
-  top: calc(450px + 2rem);
-  left: calc(50% - 0%);
-}
-.experiencia--linea--5 {
-  position: absolute;
-  z-index: -1;
-  background-color: #414664;
-  width: 10%;
-  height: 2rem;
-  top: calc(600px + 1rem);
-  left: calc(50% - 10%);
-}
-.experiencia--div:hover {
+.experiencia--div--interior:hover {
   max-height: 250px;
 }
