@@ -1,5 +1,121 @@
 .experiencia--container {
-  padding: 2rem 10rem;
+  padding: 3rem 10rem;
   flex-direction: column;
   width: calc(99vw - 20rem);
+  height: calc(100vh - 5rem);
+  min-height: 800px;
+}
+.experiencia--container--div {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 7rem);
+  padding: 2rem 0;
+}
+.experiencia--div {
+  position: absolute;
+  background-color: #bbbccc;
+  max-height: 100px;
+  padding: 1rem 1rem;
+  width: 40%;
+  min-width: 475px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px #353535, 0 0 5px #353535 inset;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+}
+.experiencia--p--principal {
+  color: #353535;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+.experiencia--p--secundario {
+  color: #414664;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.experiencia--div--descripcion {
+  padding-top: 1rem;
+}
+.experiencia--p--descripcion {
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.experiencia--div__5 {
+  right: 0;
+  top: 166px;
+}
+.experiencia--div__4 {
+  left: 0;
+  top: 300px;
+}
+.experiencia--div__3 {
+  right: 0;
+  top: calc(450px - 1rem);
+}
+.experiencia--div__2 {
+  left: 0;
+  top: calc(600px - 2rem);
+}
+
+.experiencia--linea--vertical {
+  position: absolute;
+  z-index: -1;
+  background-color: #414664;
+  left: calc(50% - 1rem);
+  border-radius: 1rem;
+  width: 2rem;
+  height: 90%;
+}
+.experiencia--linea--1 {
+  position: absolute;
+  z-index: -1;
+  background-color: #414664;
+  width: 10%;
+  height: 2rem;
+  top: calc(50px + 2rem);
+  left: calc(50% - 10%);
+}
+.experiencia--linea--2 {
+  position: absolute;
+  z-index: -1;
+  background-color: #414664;
+  width: 10%;
+  height: 2rem;
+  top: calc(166px + 3rem);
+  left: calc(50% - 0%);
+}
+.experiencia--linea--3 {
+  position: absolute;
+  z-index: -1;
+  background-color: #414664;
+  width: 10%;
+  height: 2rem;
+  top: calc(300px + 3rem);
+  left: calc(50% - 10%);
+}
+.experiencia--linea--4 {
+  position: absolute;
+  z-index: -1;
+  background-color: #414664;
+  width: 10%;
+  height: 2rem;
+  top: calc(450px + 2rem);
+  left: calc(50% - 0%);
+}
+.experiencia--linea--5 {
+  position: absolute;
+  z-index: -1;
+  background-color: #414664;
+  width: 10%;
+  height: 2rem;
+  top: calc(600px + 1rem);
+  left: calc(50% - 10%);
+}
+.experiencia--div:hover {
+  max-height: 250px;
 }
