@@ -7,6 +7,7 @@
 }
 
 .formacion--academica {
+  display: flex;
   width: inherit;
   justify-content: space-between;
   padding: 2rem 0;
@@ -58,11 +59,14 @@
 }
 
 .formacion--container--otros {
+  display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 1rem 0;
 }
 .formacion--otros {
-  width: 100%;
+  display: flex;
+  width: calc(98vw - 20rem);
   padding: 1rem 0;
 }
 .otros--ul {
@@ -78,7 +82,9 @@
   align-items: center;
 }
 .otros--div--img {
+  display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: #ffffff;
   width: 350px;
   height: 50px;

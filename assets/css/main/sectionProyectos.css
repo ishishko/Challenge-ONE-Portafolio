@@ -1,0 +1,31 @@
+.proyectos--container {
+  flex-direction: column;
+  background: #7882b9;
+  width: calc(100vw - 20rem);
+  padding: 2rem 10rem 2rem 10rem;
+  box-shadow: -10px 10px 10px #7882b9, 10px 10px 10px #7882b9, -10px -10px 10px #7882b9, 10px -10px 10px #7882b9;
+}
+.proyectos--container--div {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+.proyecto--div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.proyecto--div--interior {
+  width: 40%;
+}
+.proyecto--container--img {
+  display: flex;
+  width: 70%;
+  height: 350px;
+}
+.proyecto--img {
+  max-width: calc(50% - 2rem);
+  padding: 0 0.5rem;
+  border-radius: 3%;
+}

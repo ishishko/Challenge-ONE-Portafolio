@@ -1,5 +1,4 @@
 .experiencia--container {
-  padding: 3rem 10rem;
   flex-direction: column;
   width: calc(99vw - 20rem);
 }
@@ -7,7 +6,6 @@
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  height: calc(100% - 7rem);
   padding: 2rem 0;
 }
 .experiencia--div {
@@ -15,7 +13,7 @@
   padding: 0.5rem;
   margin-bottom: 0.5rem;
   width: 40%;
-  min-width: 510px;
+  min-width: 550px;
 }
 .experiencia--div--interior {
   max-height: 95px;

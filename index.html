@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./assets/css/main/sectionSkills.css" />
     <link rel="stylesheet" href="./assets/css/main/sectionFormacion.css" />
     <link rel="stylesheet" href="./assets/css/main/sectionExperiencia.css" />
+    <link rel="stylesheet" href="./assets/css/main/sectionProyectos.css" />
+    <link rel="stylesheet" href="./assets/css/main/sectionContacto.css" />
 
     <title>Portafolio Ignacio Shishko</title>
   </head>
@@ -35,7 +37,7 @@
             <li class="header--li"><a class="header--a" href="#">Formacion</a></li>
             <li class="header--li"><a class="header--a" href="#">Proyectos</a></li>
             <li class="header--li">
-              <a class="header--a" href="#"><span>shishkoIgnacio@gmail.com</span></a>
+              <a class="header--a" href="#"><span>Contacto</span></a>
             </li>
           </ul>
         </nav>
@@ -142,7 +144,7 @@
       <section class="section--Formacion">
         <div class="formacion--container container__flex">
           <h2>Formacion Academica</h2>
-          <div class="formacion--academica container__flex">
+          <div class="formacion--academica">
             <div class="academica container__flex">
               <div class="academia--div elizalde"></div>
               <div class="academia--div--p">
@@ -166,13 +168,13 @@
               </div>
             </div>
           </div>
-          <div class="formacion--container--otros container__flex">
+          <div class="formacion--container--otros">
             <h2>Otras Formaciones</h2>
-            <div class="formacion--otros container__flex">
-              <ul class="otros--ul container__flex">
+            <div class="formacion--otros">
+              <ul class="otros--ul">
                 <li class="otros--li">
                   <div class="otros--div">
-                    <div class="otros--div--img container__flex">
+                    <div class="otros--div--img">
                       <img class="otros--pildoras" src="./assets/img/pildoras.png" alt="Logo" />
                       <img class="otros--poo" src="./assets/img/poo.jpg" alt="Logo" />
                     </div>
@@ -184,7 +186,7 @@
                 </li>
                 <li class="otros--li">
                   <div class="otros--div">
-                    <div class="otros--div--img container__flex">
+                    <div class="otros--div--img">
                       <img class="otros--pildoras" src="./assets/img/pildoras.png" alt="Logo" />
                       <img class="otros--sql" src="./assets/img/sql2.jpg" alt="Logo" />
                       <img class="otros--mysql" src="./assets/img/mysql.png" alt="Logo" />
@@ -199,7 +201,7 @@
                 </li>
                 <li class="otros--li">
                   <div class="otros--div">
-                    <div class="otros--div--img container__flex">
+                    <div class="otros--div--img">
                       <img class="otros--pildoras" src="./assets/img/pildoras.png" alt="Logo" />
                       <img class="otros--php" src="./assets/img/phplogo.jpg" alt="Logo" />
                       <img class="otros--mysql" src="./assets/img/mysql.png" alt="Logo" />
@@ -215,7 +217,7 @@
                 </li>
                 <li class="otros--li">
                   <div class="otros--div">
-                    <div class="otros--div--img container__flex">
+                    <div class="otros--div--img">
                       <img class="otros--udemy" src="./assets/img/udemy.svg" alt="Logo" />
                       <img class="otros--pildoras" src="./assets/img/pildoras.png" alt="Logo" />
                       <img class="otros--linuxvps" src="./assets/img/git-github.png" alt="Logo" />
@@ -235,10 +237,10 @@
                   </p>
                 </li>
               </ul>
-              <ul class="otros--ul container__flex">
+              <ul class="otros--ul">
                 <li class="otros--li">
                   <div class="otros--div">
-                    <div class="otros--div--img container__flex">
+                    <div class="otros--div--img">
                       <img class="otros--pildoras" src="./assets/img/udemy.svg" alt="Logo" />
                       <img class="otros--workbench" src="./assets/img/workbench.jpg" alt="Logo" />
                       <img class="otros--linuxvps" src="./assets/img/linuxvps.jpg" alt="Logo" />
@@ -252,7 +254,7 @@
                 </li>
                 <li class="otros--li">
                   <div class="otros--div">
-                    <div class="otros--div--img container__flex">
+                    <div class="otros--div--img">
                       <img class="otros--pildoras" src="./assets/img/udemy.svg" alt="Logo" />
                       <img class="otros--pildoras" src="./assets/img/pildoras.png" alt="Logo" />
                       <img class="otros--javascript" src="./assets/img/javascript.png" alt="Logo" />
@@ -276,7 +278,7 @@
                 </li>
                 <li class="otros--li">
                   <div class="otros--div">
-                    <div class="otros--div--img container__flex">
+                    <div class="otros--div--img">
                       <img class="otros--udemy" src="./assets/img/udemy.svg" alt="Logo" />
                       <img class="otros--typescript" src="./assets/img/typescript.png" alt="Logo" />
                     </div>
@@ -295,12 +297,12 @@
       <section class="section--Experiencia">
         <div class="experiencia--container container__flex">
           <h2>Experiencia Laboral</h2>
-          <!-- !ACA TENGO QUE PONER LA HORA ACTUAL -->
-          <p>Hora Actual</p>
           <div class="experiencia--container--div container__flex">
             <div class="experiencia--div experiencia--div__6">
               <div class="experiencia--div--interior">
-                <p class="experiencia--p--principal">Soporte Tecnico y Administrador de Usuarios</p>
+                <p class="experiencia--p--principal">
+                  Soporte y Administracion de Usuarios <span class="experiencia--p--descripcion">(2022-Actual)</span>
+                </p>
                 <p class="experiencia--p--secundario">CONABIP</p>
                 <p class="experiencia--p--secundario">Ministerio de Cultura de la nacion</p>
                 <p class="experiencia--p--secundario">Tareas Realizadas</p>
@@ -399,58 +401,65 @@
       <section class="section--proyectos">
         <div class="proyectos--container container__flex">
           <h2>Proyectos</h2>
-          <div class="proyectos--container--div container__flex">
+          <div class="proyectos--container--div">
             <div class="proyecto--div">
-              <img src="" alt="" class="proyecto--img" />
-              <div class="proyecto--div--interior">
-                <a href="" class="proyecto--web--"></a>
-                <a href="" class="proyecto--git--"></a>
+              <div class="proyecto--div--interior2">
+                <div class="proyecto--interior">
+                  <p class="proyecto--p p1">Juego Ahorcado usando HTML, CSS y Javascrit</p>
+                  <p class="proyecto--p p2">Challenge ALURA-ONE</p>
+                </div>
+                <div class="proyecto--interior">
+                  <a href="" class="proyecto--web--"></a>
+                  <a href="" class="proyecto--git--"></a>
+                </div>
+              </div>
+              <div class="proyecto--container--img">
+                <img src="./assets/img/ahorcado2.jpg" alt="ahorcado" class="proyecto--img" />
+                <img src="./assets/img/ahorcado.jpg" alt="ahorcado" class="proyecto--img" />
               </div>
             </div>
             <div class="proyecto--div">
-              <div class="proyecto--div">
-                <img src="" alt="" class="proyecto--img" />
-                <div class="proyecto--div--interior">
+              <div class="proyecto--container--img">
+                <img src="./assets/img/encriptador1.jpg" alt="encriptador" class="proyecto--img" />
+                <img src="./assets/img/encriptador2.jpg" alt="encriptador" class="proyecto--img" />
+              </div>
+              <div class="proyecto--div--interior1">
+                <div class="proyecto--interior">
+                  <p class="proyecto--p p1">Encriptador usando HTML, CSS y JavaScript</p>
+                  <p class="proyecto--p p2"></p>
+                </div>
+                <div class="proyecto--interior">
                   <a href="" class="proyecto--web--"></a>
                   <a href="" class="proyecto--git--"></a>
                 </div>
               </div>
             </div>
-            <div class="proyecto--div">
-              <div class="proyecto--div">
-                <img src="" alt="" class="proyecto--img" />
-                <div class="proyecto--div--interior">
-                  <a href="" class="proyecto--web--"></a>
-                  <a href="" class="proyecto--git--"></a>
+          </div>
+        </div>
+      </section>
+      <section class="section--contacto">
+        <div class="contacto--container container__flex">
+          <div class="contacto--img">
+            <img src="./assets/img/mail.jpg" alt="contacto" height="550px" />
+          </div>
+          <div class="contacto--datos">
+            <h2>Contacto</h2>
+            <p>¿Queres Contactarme?</p>
+            <p>Completa el formulario para enviarme un mensaje.</p>
+            <div class="contacto--div--formulario">
+              <form class="contacto--formulario" action="submit" method="post">
+                <div class="contacto--div--input">
+                  <input class="input--nombre" type="text" required />
+                  <label class="lbl--nombre">
+                    <span class="text-nombre">Nombre</span>
+                  </label>
                 </div>
-              </div>
-            </div>
-            <div class="proyecto--div">
-              <div class="proyecto--div">
-                <img src="" alt="" class="proyecto--img" />
-                <div class="proyecto--div--interior">
-                  <a href="" class="proyecto--web--"></a>
-                  <a href="" class="proyecto--git--"></a>
-                </div>
-              </div>
-            </div>
-            <div class="proyecto--div">
-              <div class="proyecto--div">
-                <img src="" alt="" class="proyecto--img" />
-                <div class="proyecto--div--interior">
-                  <a href="" class="proyecto--web--"></a>
-                  <a href="" class="proyecto--git--"></a>
-                </div>
-              </div>
-            </div>
-            <div class="proyecto--div">
-              <div class="proyecto--div">
-                <img src="" alt="" class="proyecto--img" />
-                <div class="proyecto--div--interior">
-                  <a href="" class="proyecto--web--"></a>
-                  <a href="" class="proyecto--git--"></a>
-                </div>
-              </div>
+                <input type="text" required />
+                <input type="text" required />
+                <textarea name="" id="" cols="30" rows="5" placeholder="mensaje"></textarea>
+
+                <input type="button" />
+              </form>
             </div>
           </div>
         </div>

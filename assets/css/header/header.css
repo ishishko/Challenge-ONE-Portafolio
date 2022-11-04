@@ -1,5 +1,5 @@
 .header--container {
-  width: calc(100% - 20rem);
+  width: calc(100vw - 20rem);
   height: 50px;
   padding: 1.5rem 10rem 1.5rem 10rem;
   justify-content: space-between;

@@ -1,0 +1,84 @@
+.contacto--container {
+  justify-content: 0;
+  width: calc(100vw - 20rem);
+  padding-top: 5rem;
+}
+
+.contacto--datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 550px;
+  padding-left: 1rem;
+}
+.contacto--div--formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+}
+.contacto--formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.contacto--div--input {
+  position: relative;
+  /* background-color: red; */
+  width: 100%;
+  height: 3rem;
+  max-width: 400px;
+  overflow: hidden;
+}
+.contacto--div--input input {
+  width: 100%;
+  height: 100%;
+
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.lbl--nombre {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: calc(100% - 1px);
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+.text-nombre {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease;
+  transform: translateY(1.7rem);
+}
+
+/* .input--nombre:focus + .text-nombre {
+  transform: translateY(-150%);
+  font-size: 0.8rem;
+  color: #353535;
+} */
+
+.lbl--nombre::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  border-bottom: 5px solid #353535;
+  transform: translatex(-100%);
+  transition: all 0.3s ease;
+}
+.input--nombre:focus + .lbl--nombre::after {
+  transform: translateX(0%);
+}
+.input--nombre:focus + .text-nombre {
+  background-color: blue;
+}
