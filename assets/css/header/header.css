@@ -1,8 +1,13 @@
 .header--container {
   width: calc(100vw - 20rem);
   height: 50px;
-  padding: 1.5rem 10rem 1.5rem 10rem;
+}
+
+.header--container--div {
+  display: flex;
   justify-content: space-between;
+  width: 100%;
+  padding: 3rem 5rem 3rem 5rem;
 }
 
 .header--div--imagen {
@@ -19,13 +24,13 @@
   margin-right: 2rem;
 }
 .header--p {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
 }
 
 .header--li {
   margin-right: 1.5rem;
-  transition: all 150ms ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .header--a {
   text-decoration: none;
@@ -34,6 +39,7 @@
 }
 
 .header--li:hover {
-  scale: 1.1;
-  border-bottom: 2px solid #353535;
+  scale: 1.2;
+  color: black;
+  border-bottom: 3px solid #353535;
 }

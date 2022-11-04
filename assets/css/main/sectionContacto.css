@@ -59,12 +59,6 @@
   transform: translateY(1.7rem);
 }
 
-/* .input--nombre:focus + .text-nombre {
-  transform: translateY(-150%);
-  font-size: 0.8rem;
-  color: #353535;
-} */
-
 .lbl--nombre::after {
   content: "";
   position: absolute;
@@ -79,6 +73,6 @@
 .input--nombre:focus + .lbl--nombre::after {
   transform: translateX(0%);
 }
-.input--nombre:focus + .text-nombre {
-  background-color: blue;
+.input--nombre:focus + .lbl--nombre .text-nombre {
+  transform: translateY(0%);
 }
