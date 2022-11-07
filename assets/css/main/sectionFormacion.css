@@ -62,24 +62,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
   padding: 1rem 0;
 }
 .formacion--otros {
   display: flex;
-  width: calc(98vw - 20rem);
+  width: 100%;
   padding: 1rem 0;
 }
 .otros--ul {
-  flex-direction: column;
-  align-items: initial;
-  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 .otros--li {
+  width: 48%;
+  min-width: 710px;
+  min-height: 140px;
   padding: 0.5rem;
 }
 .otros--div {
   display: flex;
   align-items: center;
+  margin-bottom: 0.25rem;
+  /* flex-wrap: wrap; */
 }
 .otros--div--img {
   display: flex;
@@ -87,20 +95,25 @@
   align-items: center;
   background-color: #ffffff;
   width: 350px;
+  min-width: 310px;
   height: 50px;
   border-radius: 10px;
   overflow: hidden;
+}
+.otros--p--titulo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1rem;
 }
 .otros--p {
   line-height: 1.5rem;
   vertical-align: bottom;
   color: #353535;
-  min-width: 408px;
+  /* min-width: 408px; */
 }
 .otros--p1 {
   font-size: 1.2rem;
   font-weight: 700;
-  margin-left: 1rem;
 }
 .otros--p2 {
   font-size: 0.9rem;
@@ -137,4 +150,20 @@
 }
 .otros--typescript {
   width: 168px;
+}
+
+@media (max-width: 1780px) {
+  .formacion--container {
+    width: calc(100vw - 10rem);
+  }
+  .academica {
+    margin-bottom: 0.5rem;
+  }
+  .formacion--academica {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .otros--ul {
+    justify-content: center;
+  }
 }

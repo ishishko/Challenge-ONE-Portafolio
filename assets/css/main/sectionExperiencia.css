@@ -9,14 +9,14 @@
   padding: 2rem 0;
 }
 .experiencia--div {
-  height: 250px;
+  height: 200px;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
   width: 40%;
-  min-width: 550px;
+  min-width: 600px;
 }
 .experiencia--div--interior {
-  max-height: 95px;
+  max-height: 70px;
   overflow: hidden;
   padding: 1rem;
   box-shadow: 5px 5px 5px #353535, 0 0 5px #353535 inset;
@@ -36,7 +36,7 @@
   line-height: 1.5rem;
 }
 .experiencia--div--descripcion {
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 }
 .experiencia--p--descripcion {
   font-size: 0.9rem;
@@ -45,23 +45,12 @@
   transition: 0.5s;
 }
 
-/*.experiencia--div__5 {
-  right: 0;
-  top: 166px;
-}
-.experiencia--div__4 {
-  left: 0;
-  top: 300px;
-}
-.experiencia--div__3 {
-  right: 0;
-  top: calc(450px - 1rem);
-}
-.experiencia--div__2 {
-  left: 0;
-  top: calc(600px - 2rem);
-}*/
-
 .experiencia--div--interior:hover {
-  max-height: 250px;
+  max-height: 180px;
+}
+
+@media (max-width: 1680px) {
+  .experiencia--container {
+    width: calc(100vw - 10rem);
+  }
 }

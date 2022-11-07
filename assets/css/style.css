@@ -40,3 +40,9 @@ h2 {
   font-weight: 500;
   color: #353535;
 }
+
+@media (max-width: 1680px) {
+  .container__flex {
+    padding: 3rem 5rem;
+  }
+}

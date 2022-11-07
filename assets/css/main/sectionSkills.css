@@ -1,12 +1,14 @@
 .skillhobbies--container {
   flex-direction: column;
-}
-.skillhobies--h2 {
-  padding-top: 4rem;
-}
-.skillhobbies--div--container {
   width: calc(100vw - 20rem);
   padding: 5rem 10rem 5rem 10rem;
+}
+.skillhobies--h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.skillhobbies--div--container {
+  width: 100%;
 }
 .skillhobbies--ul {
   display: flex;
@@ -77,4 +79,11 @@
 }
 .hobbies--div__6 {
   background-image: url(../../img/electronica.png);
+}
+
+@media (max-width: 1680px) {
+  .skillhobbies--div--container {
+    width: calc(100vw - 10rem);
+    padding: 0 5rem 0 5rem;
+  }
 }

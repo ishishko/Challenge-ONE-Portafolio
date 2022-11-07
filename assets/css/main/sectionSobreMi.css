@@ -49,3 +49,14 @@
   line-height: 1.5rem;
   padding: 0.5rem 0 0.5rem 0;
 }
+
+@media (max-width: 1680px) {
+  .sobremi--1 {
+    width: calc(100vw - 10rem);
+  }
+  .sobremi--2 {
+    background: #7882b9;
+    width: calc(100vw - 25rem);
+    padding: 2rem 20rem 3rem 5rem;
+  }
+}

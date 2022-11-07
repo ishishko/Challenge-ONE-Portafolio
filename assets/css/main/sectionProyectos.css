@@ -14,18 +14,38 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 .proyecto--div--interior {
   width: 40%;
 }
+.proyecto--interior {
+  padding: 1rem;
+}
 .proyecto--container--img {
   display: flex;
   width: 70%;
-  height: 350px;
 }
 .proyecto--img {
-  max-width: calc(50% - 2rem);
+  width: 95%;
+  height: auto;
   padding: 0 0.5rem;
   border-radius: 3%;
+}
+.proyecto--a {
+  text-decoration: none;
+  color: #353535;
+  font-weight: 500;
+  border: 2.5px solid #2a7ae4;
+  padding: 1rem;
+}
+.proyecto--a__web {
+  background-color: #2a7ae4;
+}
+
+@media (max-width: 1680px) {
+  .proyectos--container {
+    width: calc(100vw - 10rem);
+    padding: 2rem 5rem 2rem 5rem;
+  }
 }
