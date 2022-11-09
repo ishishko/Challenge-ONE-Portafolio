@@ -47,3 +47,8 @@
     scale: none;
   }
 }
+@media (max-width: 412px) {
+  header {
+    display: none;
+  }
+}
