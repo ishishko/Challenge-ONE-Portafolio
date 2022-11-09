@@ -169,3 +169,9 @@
   transform: translateY(0%);
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .contacto--container {
+    width: calc(100vw - 10rem);
+  }
+}

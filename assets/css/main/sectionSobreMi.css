@@ -55,8 +55,43 @@
     width: calc(100vw - 10rem);
   }
   .sobremi--2 {
-    background: #7882b9;
     width: calc(100vw - 25rem);
     padding: 2rem 20rem 3rem 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .sobremi--1 {
+    width: calc(100vw - 6rem);
+  }
+  .sobremi--titulo {
+    font-size: 2.5rem;
+  }
+  .sobremi--imagen {
+    width: auto;
+    min-width: 220px;
+    height: auto;
+    min-height: 220px;
+  }
+  .sobremi--2 {
+    width: calc(100vw - 20rem);
+    padding: 2rem 17rem 3rem 3rem;
+  }
+}
+
+@media (max-width: 412px) {
+  .sobremi--1 {
+    width: calc(100vw - 2.5rem);
+    flex-direction: column-reverse;
+  }
+  .sobremi--texto {
+    width: 95%;
+  }
+  .sobremi-ul {
+    padding: 2rem 2rem;
+  }
+  .sobremi--2 {
+    width: calc(100vw - 5rem);
+    padding: 2rem 2.5rem;
   }
 }

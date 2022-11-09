@@ -1,6 +1,6 @@
 .experiencia--container {
   flex-direction: column;
-  width: calc(99vw - 20rem);
+  width: calc(100vw - 20rem);
 }
 .experiencia--container--div {
   flex-wrap: wrap;
@@ -9,14 +9,14 @@
   padding: 2rem 0;
 }
 .experiencia--div {
-  height: 200px;
+  height: 12.5rem;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
   width: 40%;
   min-width: 600px;
 }
 .experiencia--div--interior {
-  max-height: 70px;
+  max-height: 4.5rem;
   overflow: hidden;
   padding: 1rem;
   box-shadow: 5px 5px 5px #353535, 0 0 5px #353535 inset;
@@ -52,5 +52,20 @@
 @media (max-width: 1680px) {
   .experiencia--container {
     width: calc(100vw - 10rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .experiencia--container {
+    width: calc(100vw - 6rem);
+  }
+}
+@media (max-width: 412px) {
+  .experiencia--container {
+    width: calc(100vw - 2.5rem);
+  }
+  .experiencia--div {
+    min-width: 380px;
+    height: 15rem;
   }
 }

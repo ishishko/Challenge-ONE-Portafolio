@@ -87,3 +87,45 @@
     padding: 0 5rem 0 5rem;
   }
 }
+
+@media (max-width: 768px) {
+  .skillhobbies--container {
+    padding: 3rem 10rem 3rem 10rem;
+  }
+  .skillhobbies--div--container {
+    width: calc(100vw - 4rem);
+    padding: 0 1.5rem 0 1.5rem;
+  }
+  .skillhobies--h2 {
+    padding: 1rem 0;
+  }
+  .skillhobbies--ul {
+    flex-wrap: wrap;
+  }
+  .skillhobbies--li {
+    width: 15%;
+    margin: 5%;
+  }
+  .skillhobbies--div {
+    width: 90%;
+    height: 60%;
+  }
+  .skillhobbies--p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 412px) {
+  .skillhobbies--container {
+    width: 100%;
+    padding: 2rem 0;
+  }
+  .skillhobbies--li {
+    width: 10rem;
+    height: 10rem;
+    margin: 5%;
+  }
+  .skillhobbies--div {
+    width: 59%;
+  }
+}

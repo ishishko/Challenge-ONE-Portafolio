@@ -1,5 +1,4 @@
 .header--container {
-  width: calc(100vw - 20rem);
   height: 50px;
 }
 
@@ -7,7 +6,6 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 3rem 5rem 3rem 5rem;
 }
 
 .header--div--imagen {
@@ -42,4 +40,10 @@
   scale: 1.2;
   color: black;
   border-bottom: 3px solid #353535;
+}
+
+@media (max-width: 768px) {
+  .header--li:hover {
+    scale: none;
+  }
 }
