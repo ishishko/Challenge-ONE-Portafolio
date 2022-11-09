@@ -175,3 +175,12 @@
     width: calc(100vw - 10rem);
   }
 }
+
+@media (max-width: 412px) {
+  .contacto--container {
+    width: calc(100vw - 4rem);
+  }
+  .contacto--img {
+    display: none;
+  }
+}

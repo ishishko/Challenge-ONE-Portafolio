@@ -62,7 +62,7 @@
 }
 @media (max-width: 412px) {
   .experiencia--container {
-    width: calc(100vw - 2.5rem);
+    width: calc(100vw - 3rem);
   }
   .experiencia--div {
     min-width: 380px;

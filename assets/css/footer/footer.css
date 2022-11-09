@@ -1,11 +1,11 @@
 .footer--container {
-  height: 4rem;
-  width: 105%;
+  height: 5rem;
+  width: 100%;
   background-color: #7882b9;
 }
 .footer--logos {
   justify-content: space-around;
-  width: 10%;
+  width: 40%;
 }
 .footer--shishko {
   justify-content: space-around;
@@ -23,6 +23,12 @@
   height: 3rem;
   width: 3rem;
 }
+.footer--p {
+  font-weight: 500;
+}
+.footer--p::before {
+  content: "\00a9″ ";
+}
 
 @media (max-width: 768px) {
   .footer--logos {
@@ -30,5 +36,18 @@
   }
   .footer--shishko {
     width: 50%;
+  }
+}
+@media (max-width: 412px) {
+  .footer--container {
+    flex-direction: column;
+    height: 10rem;
+  }
+  .footer--logos {
+    width: 95%;
+    /* justify-content: ; */
+  }
+  .footer--p {
+    margin-top: 1rem;
   }
 }
