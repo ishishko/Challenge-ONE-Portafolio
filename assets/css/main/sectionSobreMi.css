@@ -1,5 +1,5 @@
 .sobremi--1 {
-  width: calc(100vw - 20rem);
+  width: calc(100% - 20rem);
   justify-content: space-between;
 }
 .sobremi--texto {

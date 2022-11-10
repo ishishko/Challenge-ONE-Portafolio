@@ -1,6 +1,6 @@
 .contacto--container {
   justify-content: 0;
-  width: calc(100vw - 20rem);
+  width: calc(100% - 20rem);
   padding-top: 5rem;
 }
 

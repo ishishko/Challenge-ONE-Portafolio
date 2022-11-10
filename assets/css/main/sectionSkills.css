@@ -1,6 +1,6 @@
 .skillhobbies--container {
   flex-direction: column;
-  width: calc(100vw - 20rem);
+  width: calc(100% - 20rem);
   padding: 5rem 10rem 5rem 10rem;
 }
 .skillhobies--h2 {

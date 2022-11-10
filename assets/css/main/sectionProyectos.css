@@ -1,7 +1,7 @@
 .proyectos--container {
   flex-direction: column;
   background: #7882b9;
-  width: calc(100vw - 20rem);
+  width: calc(100% - 20rem);
   padding: 2rem 10rem 2rem 10rem;
   box-shadow: -10px 10px 10px #7882b9, 10px 10px 10px #7882b9, -10px -10px 10px #7882b9, 10px -10px 10px #7882b9;
 }

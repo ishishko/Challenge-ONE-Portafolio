@@ -1,7 +1,7 @@
 .formacion--container {
   flex-direction: column;
   background: #7882b9;
-  width: calc(100vw - 20rem);
+  width: calc(100% - 20rem);
   /* padding: 2rem 10rem 2rem 10rem; */
   box-shadow: -10px 10px 10px #7882b9, 10px 10px 10px #7882b9, -10px -10px 10px #7882b9, 10px -10px 10px #7882b9;
 }
@@ -204,6 +204,9 @@
   .formacion--container {
     width: calc(100vw - 2.5rem);
   }
+  .academica {
+    width: 340px;
+  }
   .otros--li {
     min-width: 380px;
   }
@@ -218,5 +221,17 @@
   }
   .otros--p {
     margin: 0.25rem 0;
+  }
+  .elizalde {
+    width: 74px;
+    height: 99px;
+  }
+  .unlam {
+    width: 91px;
+    height: 77px;
+  }
+  .one {
+    width: 110px;
+    height: 60px;
   }
 }
