@@ -27,7 +27,7 @@
   font-weight: 500;
 }
 .footer--p::before {
-  content: "\00a9″ ";
+  content: "\00a9";
 }
 
 @media (max-width: 768px) {
