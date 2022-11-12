@@ -170,7 +170,7 @@
   font-weight: 500;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .contacto--container {
     width: calc(100vw - 10rem);
   }

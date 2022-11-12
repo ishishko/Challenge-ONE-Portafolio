@@ -51,18 +51,18 @@
 
 @media (max-width: 1680px) {
   .experiencia--container {
-    width: calc(100vw - 10rem);
+    width: calc(100% - 10rem);
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .experiencia--container {
-    width: calc(100vw - 6rem);
+    width: calc(100% - 6rem);
   }
 }
 @media (max-width: 412px) {
   .experiencia--container {
-    width: calc(100vw - 3rem);
+    width: calc(100% - 3rem);
   }
   .experiencia--div {
     min-width: 380px;

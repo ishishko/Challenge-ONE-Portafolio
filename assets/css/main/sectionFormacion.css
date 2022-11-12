@@ -169,7 +169,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .formacion--container {
     width: calc(100vw - 5rem);
   }
@@ -208,7 +208,7 @@
     width: 340px;
   }
   .otros--li {
-    min-width: 380px;
+    min-width: 330px;
   }
   .otros--div {
     flex-direction: column;
