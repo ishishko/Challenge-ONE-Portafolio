@@ -57,6 +57,10 @@
   border: 2.5px solid #2a7ae4;
   padding: 1rem;
 }
+.contacto--button__ok {
+  background-color: lightgreen;
+  border: 2.5px solid lightgreen;
+}
 
 /*---------------------------*/
 .lbl--nombre {
