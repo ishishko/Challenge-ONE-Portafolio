@@ -71,7 +71,7 @@
   .header--nav__fixed412 {
     position: fixed;
     z-index: 2;
-    top: calc(100vh - 4.25rem);
+    bottom: 0;
     left: 0;
   }
   .header--ul__fixed412 {
